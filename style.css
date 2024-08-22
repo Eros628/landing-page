@@ -1,0 +1,95 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+   
+}
+
+.hero-section, .info-section, .qoute-section, .footer{
+
+}
+
+.hero-section{
+    height: 525px;
+    background-color: #1f2937;
+    padding-left: 250px;
+    padding-right: 120px;
+    color: #d0d2d8;
+    font-size: 18px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left, .nav-right{
+    flex:1 1 auto;
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.nav-bar .nav-left{
+    font-size: 26px;
+    font-weight:bolder;
+    color: #f9faf8;
+    
+}
+
+.hero-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+button{
+    background-color: #3882f6;
+    font-weight:bolder;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+ .main-info .header-info{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #f9faf8;
+}
+
+.image-info{
+    display: flex;
+    justify-content: end;
+
+}
+.images{
+    height: 430px;
+    width: auto;
+    align-items: end;
+}
+
+
+.info-section{
+    height: 350px;
+    background-color: white;
+}
+
+.qoute-section{
+    height: 350px;
+    background-color: #e5e7eb;
+}
+
+.contact-section{
+    height: 300px;
+}
+.footer{
+    height: 100px;
+    background-color: #1f2937;
+}
