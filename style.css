@@ -77,13 +77,45 @@ button{
 
 
 .info-section{
-    height: 350px;
+    height: 380px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #1f2937;
+    align-items: center;
 }
 
+.info-header{
+    font-size: 20px;
+    
+    font-weight: bolder;
+}
+
+.info-options{
+    display: flex;
+    gap: 70px;
+}
+.box{
+    text-align: center;
+}
+.info-img{
+    height: 180px;
+    width: 180px;
+    background-color: black;
+    border-radius: 25px;
+    
+
+}
 .qoute-section{
     height: 350px;
     background-color: #e5e7eb;
+}
+
+.info-section img{
+    height: auto;
+    width: 180px;
+    
 }
 
 .contact-section{
