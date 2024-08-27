@@ -46,6 +46,7 @@ a{
     align-items: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    flex-shrink: 0;
 
 }
 
@@ -78,6 +79,7 @@ button:hover{
 .image-info{
     display: flex;
     justify-content: end;
+    flex-shrink: 0;
 
 }
 .images{
@@ -95,6 +97,7 @@ button:hover{
     gap: 25px;
     color: #1f2937;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .info-header{
@@ -210,4 +213,8 @@ button:hover{
 .footer{
     height: 100px;
     background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
