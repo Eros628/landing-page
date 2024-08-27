@@ -88,23 +88,22 @@ button{
 
 .info-header{
     font-size: 20px;
-    
     font-weight: bolder;
 }
 
 .info-options{
     display: flex;
-    gap: 70px;
+    gap: 55px;
 }
-.box{
-    text-align: center;
+
+
+.info-section p{
+    padding: 0;
 }
 .info-img{
     height: 180px;
     width: 180px;
-    background-color: black;
-    border-radius: 25px;
-    
+    text-align: center;
 
 }
 .qoute-section{
@@ -113,9 +112,9 @@ button{
 }
 
 .info-section img{
-    height: auto;
-    width: 180px;
-    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .contact-section{
