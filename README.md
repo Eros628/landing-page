@@ -1,4 +1,4 @@
-**LANDING PAGE - PORTFOLIO**
+**LANDING PAGE - PORTFOLIO** 
 
 A basic Landing page, a project from Odin Project. Its purpose is to show how to arrange a landing page using basic CSS which includes more about Alignment and Flexbox. 
 
